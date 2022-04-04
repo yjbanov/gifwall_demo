@@ -67,7 +67,16 @@ flutter:
     - assets/dash5.webp
     - assets/dash6.webp
     - assets/dash7.webp
-
+    - assets/Excited.gif
+    - assets/Excited_2.gif
+    - assets/Faintwithhat.gif
+    - assets/Faintwithouthat.gif
+    - assets/Flying.gif
+    - assets/Glasses.gif
+    - assets/Jumping.gif
+    - assets/Lookingaround.gif
+    - assets/Tilthead.gif
+    - assets/Waving.gif
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

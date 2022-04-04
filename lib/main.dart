@@ -23,6 +23,16 @@ const _urls = <String>{
   'assets/dash5.webp',
   'assets/dash6.webp',
   'assets/dash7.webp',
+  'assets/Excited.gif',
+  'assets/Excited_2.gif',
+  'assets/Faintwithhat.gif',
+  'assets/Faintwithouthat.gif',
+  'assets/Flying.gif',
+  'assets/Glasses.gif',
+  'assets/Jumping.gif',
+  'assets/Lookingaround.gif',
+  'assets/Tilthead.gif',
+  'assets/Waving.gif',
 };
 
 void main() {
