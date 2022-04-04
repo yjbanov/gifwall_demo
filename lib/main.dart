@@ -14,24 +14,16 @@
 
 import 'package:flutter/material.dart';
 
-const List<String> urls = <String>[
-  'https://media4.giphy.com/media/Ve1cBYXUmh6iyuYSnF/giphy.webp',
-  'https://media3.giphy.com/media/fZ31GBoN4EOUb83rIt/giphy.webp',
-  'https://media4.giphy.com/media/wP4T2q2sb9vqgz4GZ1/giphy.webp',
-  'https://media1.giphy.com/media/RgGfMHu2HLKLwGeGFb/giphy.webp',
-  'https://media0.giphy.com/media/3o7TKtpfZ3e8rwww7K/giphy.webp',
-  'https://media1.giphy.com/media/4nKnhZsY9mNX9n928r/giphy.webp',
-  'https://media4.giphy.com/media/8Rqk3cKgw799pM8U1a/giphy.webp',
-  'https://media3.giphy.com/media/3ov9jSfDqguXOoLfhu/giphy.webp',
-  'https://media4.giphy.com/media/yh4Q1Hft8zzUgzOybI/giphy.webp',
-  'https://media4.giphy.com/media/SF9v8zMYhyvLn9GTTH/giphy.webp',
-  'https://media0.giphy.com/media/BwPYESM1eTKgozrKnT/giphy.webp',
-  'https://media2.giphy.com/media/Gx9iROMAiZmFtAopIJ/giphy.webp',
-  'https://media1.giphy.com/media/wyyqRSqoWGSiP66G6a/giphy.webp',
-  'https://media2.giphy.com/media/SWUneSnAJCgy1qSfNG/giphy.webp',
-  'https://media0.giphy.com/media/l6oX5SS8vA5n7GSXG2/giphy.webp',
-  'https://media2.giphy.com/media/QBpi7TeiDCgQ59VH1O/giphy.webp',
-];
+const _urls = <String>{
+  'assets/dash0.webp',
+  'assets/dash1.webp',
+  'assets/dash2.webp',
+  'assets/dash3.webp',
+  'assets/dash4.webp',
+  'assets/dash5.webp',
+  'assets/dash6.webp',
+  'assets/dash7.webp',
+};
 
 void main() {
   runApp(const MyApp());
@@ -77,8 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
         children: <Widget>[
           if (_show)
             for (int i = 0; i < 50; i++)
-              for (String url in urls)
-                Image.network(url),
+              for (String url in _urls) Image.network(url),
         ],
       ),
       floatingActionButton: FloatingActionButton(
